@@ -2,19 +2,23 @@
     "mcpServers":  {
                        "jarvis-pmo-llm-tools":  {
                                                     "url":  "http://localhost:31410",
-                                                    "type":  "http"
+                                                    "type":  "http",
+                                                    "overridesBuiltInTool":  true
                                                 },
                        "jarvis-vse-llm-tools":  {
                                                     "url":  "http://localhost:31420",
-                                                    "type":  "http"
+                                                    "type":  "http",
+                                                    "overridesBuiltInTool":  true
                                                 },
                        "jarvis-syspilot-llm-tools":  {
                                                          "url":  "http://localhost:31413",
-                                                         "type":  "http"
+                                                         "type":  "http",
+                                                         "overridesBuiltInTool":  true
                                                      },
                        "jarvis-devhost-llm-tools":  {
                                                         "url":  "http://localhost:31421",
-                                                        "type":  "http"
+                                                        "type":  "http",
+                                                        "overridesBuiltInTool":  true
                                                     }
                    }
 }
